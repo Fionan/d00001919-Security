@@ -25,7 +25,7 @@ These are built to the spec of work done within class; they are NOT suitable for
 - n (modulus) as INT
 - d or e as INT
 
-## Vingere
+## Vigenere
 - Can deal with letters.
 
 **TO-DO**
