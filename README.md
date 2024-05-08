@@ -7,7 +7,22 @@ Built as a JAR and run `java -jar Sectool.jar`. This program uses my MenuMaker C
 
 **NOTE:** These are essentially scripts with little to no error handling. Double-check your inputs!
 
+
 These are built to the spec of work done within class; they are NOT suitable for anything else:
+
+## Build without Intelij
+- prerequisites :
+  - Java 17
+  - Maven
+  - git
+
+
+- git clone https://github.com/Fionan/d00001919-Security.git
+- cd d00001919-Security
+- mvn package
+- java -cp target/Sectool-1.0-SNAPSHOT.jar eu.lemondreams.security.Main
+
+
 
 ## Feistel
 - Expects (8) bits like 11011101
