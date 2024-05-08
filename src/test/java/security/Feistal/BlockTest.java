@@ -1,14 +1,16 @@
 package security.Feistal;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 import eu.lemondreams.security.Feistal.Block;
+import org.junit.Test;
 
-class BlockTest {
+public class BlockTest {
 
     @Test
-    void testRotate() {
+    public void testRotate() {
         Block block = new Block(true, true, false, false);
         Block rotatedBlock = block.rotate();
         boolean[] expectedValues = {false, false, true, true};
@@ -17,7 +19,7 @@ class BlockTest {
     }
 
     @Test
-    void testLeft() {
+    public void testLeft() {
         Block block = new Block(true, false, true, false);
         Block leftBlock = block.left();
         boolean[] expectedValues = {true, false};
@@ -25,7 +27,7 @@ class BlockTest {
     }
 
     @Test
-    void testRight() {
+    public void testRight() {
         Block block = new Block(true, false, true, false);
         Block rightBlock = block.right();
         boolean[] expectedValues = {true, false};
@@ -33,7 +35,7 @@ class BlockTest {
     }
 
     @Test
-    void testXOR() {
+    public void testXOR() {
         Block rightSide = new Block(true, true,false,false);
         Block key = new Block(true, true,false,true);
         boolean[] expectedValues = {false, false, false, true};
@@ -43,7 +45,7 @@ class BlockTest {
     }
 
     @Test
-    void testJoin() {
+    public void testJoin() {
         Block a = new Block(true, false);
         Block b = new Block(true, true);
         Block result = new Block(true, false, true, true);
@@ -51,7 +53,7 @@ class BlockTest {
     }
 
     @Test
-    void testShiftLeft() {
+    public void testShiftLeft() {
         Block block = new Block(true, false, false, false);
         Block shiftedBlock = block.shift(1, Block.Direction.LEFT);
         boolean[] expectedValues = {false, false, false, true};
@@ -59,7 +61,7 @@ class BlockTest {
     }
 
     @Test
-    void testShiftRight() {
+    public void testShiftRight() {
         Block block = new Block(true, false, true, false);
         Block shiftedBlock = block.shift(1, Block.Direction.RIGHT);
         boolean[] expectedValues = {false, true, false, true};
