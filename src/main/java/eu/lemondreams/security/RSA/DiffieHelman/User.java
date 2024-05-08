@@ -1,4 +1,4 @@
-package org.example;
+package eu.lemondreams.security.RSA.DiffieHelman;
 
 public class User{
 

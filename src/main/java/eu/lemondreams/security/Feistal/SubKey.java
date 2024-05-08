@@ -1,4 +1,4 @@
-package eu.lemondreams.security.feistal;
+package eu.lemondreams.security.Feistal;
 
 public class SubKey extends Block{
 

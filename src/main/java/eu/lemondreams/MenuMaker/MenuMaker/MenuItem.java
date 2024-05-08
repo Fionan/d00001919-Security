@@ -1,4 +1,4 @@
-package eu.lemondreams.security.MenuMaker;
+package eu.lemondreams.MenuMaker.MenuMaker;
 
 
  final  class  AlwaysViewableCondition implements MenuItemCondition{

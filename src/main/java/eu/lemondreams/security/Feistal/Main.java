@@ -1,9 +1,7 @@
-package eu.lemondreams.security.feistal;
+package eu.lemondreams.security.Feistal;
 
 
-import eu.lemondreams.security.feistal.Block;
-import eu.lemondreams.security.feistal.Key;
-import eu.lemondreams.security.feistal.SubKey;
+
 
 import java.util.*;
 

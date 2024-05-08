@@ -1,4 +1,4 @@
-package org.example;
+package eu.lemondreams.security.RSA.DiffieHelman;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package eu.lemondreams.security.Vigenere;
+
 import java.util.Scanner;
 
 

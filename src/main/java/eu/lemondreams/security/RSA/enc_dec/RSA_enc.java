@@ -1,4 +1,4 @@
-package eu.lemondreams.security;
+package eu.lemondreams.security.RSA.enc_dec;
 
 import java.util.Scanner;
 

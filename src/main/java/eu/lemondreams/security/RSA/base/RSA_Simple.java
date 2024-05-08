@@ -1,4 +1,4 @@
-package eu.lemondreams.security.RSA;
+package eu.lemondreams.security.RSA.base;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

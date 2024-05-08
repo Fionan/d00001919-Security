@@ -1,4 +1,4 @@
-package eu.lemondreams.security.feistal;
+package eu.lemondreams.security.Feistal;
 
 import java.util.Arrays;
 
