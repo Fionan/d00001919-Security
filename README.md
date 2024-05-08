@@ -19,7 +19,7 @@ These are built to the spec of work done within class; they are NOT suitable for
   - git
 
 ```
-git clone https://github.com/Fionan/d00001919-Security.git \'
+git clone https://github.com/Fionan/d00001919-Security.git
 cd d00001919-Security
 mvn package
 java -cp target/Sectool-1.0-SNAPSHOT.jar eu.lemondreams.security.Main
