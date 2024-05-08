@@ -1,3 +1,5 @@
+# Sectool #
+
 Built with IntelliJ Community edition
 
 - Java 21/17
@@ -10,18 +12,18 @@ Built as a JAR and run `java -jar Sectool.jar`. This program uses my MenuMaker C
 
 These are built to the spec of work done within class; they are NOT suitable for anything else:
 
-## Build without Intelij
+## Build without IntelliJ
 - prerequisites :
   - Java 17
   - Maven
   - git
 
-
-- git clone https://github.com/Fionan/d00001919-Security.git
-- cd d00001919-Security
-- mvn package
-- java -cp target/Sectool-1.0-SNAPSHOT.jar eu.lemondreams.security.Main
-
+```
+git clone https://github.com/Fionan/d00001919-Security.git \'
+cd d00001919-Security
+mvn package
+java -cp target/Sectool-1.0-SNAPSHOT.jar eu.lemondreams.security.Main
+```
 
 
 ## Feistel
