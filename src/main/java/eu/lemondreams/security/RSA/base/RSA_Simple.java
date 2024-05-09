@@ -78,7 +78,7 @@ public class RSA_Simple {
         System.out.println("Whats the (M)essage?");
         int M = sc.nextInt();
         System.out.println();
-        // Encrpytion is M^E MOD N
+        // Encryption is M^E MOD N
        
     
         System.out.println("En(C)ryption: M^E MOD N");
@@ -100,7 +100,7 @@ public class RSA_Simple {
         System.out.println("D "+D);
         System.out.println("Public Key (n,e) : ("+N+","+E+")");
         System.out.println("Private Key (n,d) : ("+N+","+D+")");
-        System.out.println("");
+        System.out.println();
 
        } catch (Exception e) {
         // TODO: handle exception

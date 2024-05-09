@@ -36,7 +36,7 @@ public class User{
     }
 
 
-    public double checkDiffie_hellamn(){
+    public double checkDiffie_hellman(){
         double chk = Math.pow(received,secret);
         double calc = chk % p;
 

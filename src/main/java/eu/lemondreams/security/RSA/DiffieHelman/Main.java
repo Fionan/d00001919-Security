@@ -44,24 +44,24 @@ public class Main {
         System.out.println("Alice checks bobs work...");
 
 
-    if(alice.checkDiffie_hellamn()== bob.checkDiffie_hellamn()){
+    if(alice.checkDiffie_hellman()== bob.checkDiffie_hellman()){
 
 
 
 
-        System.out.println("Alice had "+alice.checkDiffie_hellamn());
-        System.out.println("Bob had "+bob.checkDiffie_hellamn());
+        System.out.println("Alice had "+alice.checkDiffie_hellman());
+        System.out.println("Bob had "+bob.checkDiffie_hellman());
 
         System.out.println("Bob and Alice agree");
 
 
-        System.out.println( "They agreed on "+alice.checkDiffie_hellamn());
+        System.out.println( "They agreed on "+alice.checkDiffie_hellman());
 
 
     }else {
         System.out.println("Alice and Bob disagree");
-        System.out.println("Alice had "+alice.checkDiffie_hellamn());
-        System.out.println("Bob had "+bob.checkDiffie_hellamn());
+        System.out.println("Alice had "+alice.checkDiffie_hellman());
+        System.out.println("Bob had "+bob.checkDiffie_hellman());
 
     }
 

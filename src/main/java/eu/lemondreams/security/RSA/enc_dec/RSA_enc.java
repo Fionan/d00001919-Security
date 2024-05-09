@@ -10,8 +10,8 @@ public class RSA_enc {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("RSA - enc decypt");
-        System.out.println("E for enc, D for decypt");
+        System.out.println("RSA - enc decrypt");
+        System.out.println("E for enc, D for decrypt");
 
         boolean encypt =false;
 
